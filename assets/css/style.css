@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,400&family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster+Two:ital@1&display=swap');
+
+/* Google Fonts */
+/* font-family: "Montserrat",
+sans-serif;
+font-family: "Roboto",
+sans-serif;
+font-family: "Lora",
+serif; */
+* {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#particle {
+    position: absolute;
+    transform: translate(-20%, -1%);
+    height: 90vh;
+}
+
+@media only screen and (max-width: 900px) {
+    #particle {
+        display: none;
+    }
+}
+
+#logo {
+    height: auto;
+    width: 10%;
+}
+
+svg:hover path {
+    fill: #03642b;
+}
+
+.nav-icon {
+    color: #ECF0F1;
+}
+
+.nav-icon:hover {
+    color: #68C3A3;
+}
+
+.page-header-image {
+    height: 100%;
+    width: auto;
+
+}
+
+canvas {
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.letter-spacing {
+    font-family: "Montserrat", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
+    /* font-family: 'Playfair Display',serif; */
+    /* font-family: 'Raleway', sans-serif; */
+    font-weight: 800;
+    margin: 20px 0px 0px 45px;
+    font-size: calc(1.5rem + 1 * ((100vw - 20rem) / 100));
+    line-height: 1.2;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    background-size: cover;
+    background-clip: text;
+    color: rgb(33, 33, 33);
+}
+
+.small-text {
+    font-family: "Lora", serif;
+    margin: 25px 60px 0px 0px;
+    color: #212121;
+    font-size: 16px;
+    line-height: 2;
+}
+
+.watch-finder {
+    padding: 8px 30px;
+    color: #12784A;
+    border-color: #12784A;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+}
+
+.watch-finder:hover {
+    background-color: #12784A;
+    color: #ECF0F1;
+}
+
+.img-size {
+    width: 300px;
+    height: 350px;
+}
+
+.section,
+.bg-light {
+    background-color: #f6f6f6;
+}
+
+.configure-a {
+    text-decoration: none;
+    color: #12784A;
+    margin-top: 17px;
+    margin-left: -10px;
+}
+
+.configure-a:hover {
+    color: #88bba4;
+}
+
+.discover {
+    font-family: "Railway", sans-serif;
+    border-radius: 2px;
+    background-color: rgba(163, 126, 44, 1);
+    border-color: #f6f6f6;
+    letter-spacing: 0.3rem;
+    color: #f6f6f6;
+}
+
+
+.discover-img {
+    width: 260px;
+    height: 360px;
+    background-color: #e5e5e5;
+    object-fit: cover;
+    display: block;
+    transition: all .3s;
+    backface-visibility: hidden;
+    filter: grayscale(.5);
+}
+
+.discover-img:hover:hover {
+    transform: scale(1.02);
+    filter: none;
+    cursor: pointer;
+}
+
+.card-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2rem;
+    margin-top: -10px;
+    text-align: center;
+}
+
+.card-text {
+    font-family: "Montserrat",
+        sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1rem;
+    margin-top: -5px;
+    text-align: center;
+    word-wrap: none;
+}
+
+.card {
+    border: none;
+    box-shadow: none;
+}
+
+.discover-more {
+    letter-spacing: 0.2rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    background-color: #ffffff;
+    color: rgba(163, 126, 44, 1);
+    border: 1px solid rgba(163, 126, 44, 1);
+    border-radius: 1px;
+    transition: .5s;
+    padding: 10px 25px;
+}
+
+.discover-more:hover {
+    background-color: rgba(163, 126, 44, 1);
+    color: #ffffff;
+    border: 1px solid rgba(163, 126, 44, 1);
+    border-radius: 2px;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.weekly-deals {
+    color: rgb(22, 31, 40, 0.8);
+    letter-spacing: 0.4rem;
+    font-size: 2rem;
+}
+
+.weekly-deals-hr {
+    border-color: rgba(163, 126, 44, 1);
+    border-width: 2px;
+    max-width: 120px;
+}
+
+.weekly-box {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #e7e8e9;
+    border-radius: 2px;
+}
+
+.weekly-box-img {
+    height: 440px;
+    width: 420px;
+    margin: 10px;
+    padding: 20px 20px;
+    border-radius: 2px;
+}
+
+.coupon-title {
+    color: #444444;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Lobster Two', cursive;
+    font-size: 30px;
+}
+
+.coupon-hr {
+    border-color: rgb(22, 31, 40, 0.8);
+    border-width: 2px;
+    margin-right: 400px;
+}
+
+.coupon-hr-right {
+    border-color: rgb(22, 31, 40, 0.8);
+    border-width: 2px;
+    margin-left: 400px;
+}
+
+.coupon-post-text {
+    color: #444444;
+
+}
+
+.use-code {
+    font-family: 'Playfair Display', serif;
+    color: #444444;
+}
+
+.retail {
+    color: #444444;
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+    margin-right: 20px;
+}
+
+
+.sale {
+    color: #444444;
+    margin-left: 10px;
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+    text-decoration: line-through;
+}
+
+.coupon-price {
+    font-family: 'Lobster Two', cursive;
+    font-size: 2rem;
+    margin: 0;
+    margin-top: -10px;
+}
+
+.after-coupon {
+    font-size: 16px;
+    margin-top: -5px;
+}
+
+.shop-btn {
+    color: rgba(163, 126, 44, 1);
+    background-color: #e7e8e9;
+}
+
+.subscribe {
+    background-image: url("../../images/Insurance_Banner.jpg");
+    background-size: cover;
+}
+
+.subscribe-title {
+    color: #e5e5e5;
+    font-family: "Lora", serif;
+    letter-spacing: 0.2rem;
+}
+
+.subscribe-text {
+    color: rgb(201, 202, 202);
+    font-family: "Lora", sans-serif;
+    letter-spacing: 0.1rem;
+    font-weight: lighter;
+}
+
+.subscribe-btn {
+    background-color: #f6f6f6;
+    letter-spacing: 0.2rem;
+    font-size: 22px;
+}
+
+
+::selection {
+    background-color: rgba(4, 147, 114, 0.76);
+}
