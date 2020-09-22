@@ -21,6 +21,10 @@ serif; */
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 ::selection {
     background-color: rgba(4, 147, 114, 0.76);
 }
@@ -235,6 +239,7 @@ canvas {
     cursor: pointer;
 }
 
+
 .card-title {
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
@@ -242,6 +247,7 @@ canvas {
     letter-spacing: 0.2rem;
     margin-top: -10px;
     text-align: center;
+    text-decoration: none;
 }
 
 .card-text {
@@ -253,6 +259,7 @@ canvas {
     margin-top: -5px;
     text-align: center;
     word-wrap: none;
+    text-decoration: none;
 }
 
 .card {
@@ -614,4 +621,12 @@ ul.social-network li {
 
 .social-network a {
     background-color: #F9F9F9;
+}
+
+@media only screen and (max-width: 900px) {
+
+
+    .container {
+        display: grid;
+    }
 }
