@@ -105,7 +105,7 @@ svg:hover path {
 .about-heading {
     display: block;
     font-size: 2.5rem;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.3rem;
     font-family: 'Lobster Two', cursive;
     background: -webkit-linear-gradient(170deg, #a57e49, #c9b191, #87bcae, #0f7a5e, #a57e49);
     background: linear-gradient(170deg, #a57e49, #c9b191, #87bcae, #0f7a5e, #a57e49);
